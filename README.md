@@ -2,11 +2,15 @@
 
 ## Table of contents
 * [Introduction](https://github.com/zeroix07/ml-capstone##introduction)
-* [Dataset]
-* [Model Architecture]
-* [Training]
-* [Evaluation]
-* [Further Work]
+* [About Dataset](https://github.com/zeroix07/ml-capstone##About-Dataset)
+* [Model Architecture](https://github.com/zeroix07/ml-capstone##Model-Architecture)
+* [Machine Learning Project Cycle](https://github.com/zeroix07/ml-capstone##Machine Learning-Project-Cycle)
+* [Labeling and Split Dataset](https://github.com/zeroix07/ml-capstone##Labeling-and-Split-Dataset)
+* [Data Augmentation](https://github.com/zeroix07/ml-capstone##Data-Augmentation)
+* [Training](https://github.com/zeroix07/ml-capstone##Training)
+* [Eval](https://github.com/zeroix07/ml-capstone##Eval)
+* [Integrate Model with FastAPI](https://github.com/zeroix07/ml-capstone##Integrate-Model-with-FastAPI)
+* [Reference](https://github.com/zeroix07/ml-capstone##Reference)
   
 ## Introduction
 Transfer learning is a popular technique in machine learning (ML) in which knowledge learned from a task is re-used in order to boost performance on a related task. For example, In this case we use Transfer learning for object detection and the model we use Faster R-CNN ResNet152 V1 640x640.
@@ -50,7 +54,7 @@ Data augmentation is a technique used in machine learning and deep learning to a
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 50000| 0.00039563698 | 0.0038573607 | 0.0004368036 | 0.00014826868 | 0.006825394 | 0.011663465 | 0.0 |
 
-
+## Eval
 > mAP Precision
 > 
 
@@ -63,6 +67,10 @@ Data augmentation is a technique used in machine learning and deep learning to a
 | DetectionBoxes_Recall/AR@1 | DetectionBoxes_Recall/AR@10 | DetectionBoxes_Recall/AR@100 | DetectionBoxes_Recall/AR@100 (large) | DetectionBoxes_Recall/AR@100 (medium) | DetectionBoxes_Recall/AR@100 (small) |
 | --- | --- | --- | --- | --- | --- |
 | 0.2645 | 0.7214 | 0.7258 | -1 | 0.7544 | 0.7061 |
+
+## Integrate Model with FastAPI
+![WhatsApp Image 2023-12-10 at 5 22 49 PM](https://github.com/zeroix07/ml-capstone/assets/120600614/9af04000-20ea-4730-8bbf-3969c8445156)
+Integrating a machine learning model with FastAPI involves creating an API endpoint that can receive input data, process it using the model, and return the predictions or results. Before that We upload model in Cloud Storage.
 
 ## Reference
 Model Architecture [Reference](https://arxiv.org/pdf/1512.03385)

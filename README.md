@@ -18,7 +18,7 @@ Transfer learning is a popular technique in machine learning (ML) in which knowl
 
 <a name="dataset"></a>
 ## About Dataset
-The dataset utilized by the original from [Berasil Team](https://www.kaggle.com/datasets/fadhelm/rice-dataset) directly from on-the-ground collection efforts, providing a robust foundation for the app's rice quality detection features. Collected through direct field sampling and We have 225 sample images.
+The dataset utilized by the original directly from on-the-ground collection efforts, providing a robust foundation for the app's rice quality detection features. Collected through direct field sampling and We have 225 sample images.
 
 We have total 10 classes :
 1. batu

@@ -1,4 +1,4 @@
-# Machine Learning Documentation of Rice Quality Detection - Berasil App
+# Machine Learning Documentation of Rice Quality Detection
 
 ## Table of contents
 * [Introduction](#introduction)
